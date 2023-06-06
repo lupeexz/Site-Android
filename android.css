@@ -1,0 +1,243 @@
+/*
+ * Android
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+ body{
+    background-color: blueviolet;
+ }
+
+ div {margin: o; padding: 0;}
+ div div {background: ; position: relative;}
+ 
+ table{
+    margin-left: 60px;
+ }
+ .android{
+     height: 404px; width: 334px;
+     margin-inline: 30px;
+     
+ }
+ 
+ .headr{
+    background-color: red;
+     width: 220px; height: 100px;
+     top: 32px;
+     border-radius: 110px 110px 0 0;
+     -moz-border-radius: 110px 110px 0 0;
+     -webkit-border-radius: 110px 110px 0 0;
+     
+     -webkit-transition: all 0.1s ease-in;
+ }
+ 
+ .left_eyer, .right_eyer {
+    background-color: red;
+     background: blueviolet;
+     width: 20px; height: 20px;
+     position: absolute; top: 42px;
+     
+     border-radius: 10px;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+ }
+ 
+ .left_eyer {left: 50px;}
+ .right_eyer {right: 50px;}
+ 
+ .left_antr, .right_antr{
+    background-color: red;
+     width: 6px; height: 50px;
+     position: absolute; top: -34px;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+ }
+ 
+ .left_antr {
+    background-color: red;
+     left: 50px;
+     transform: rotate(-30deg);
+     -webkit-transform: rotate(-30deg);
+     -moz-transform: rotate(-30deg);
+ }
+ 
+ .right_antr {
+     right: 50px;
+     transform: rotate(30deg);
+     -webkit-transform: rotate(30deg);
+     -moz-transform: rotate(30deg);
+ }
+ 
+ .bodyr{
+    background-color: red;
+     width: 220px; height: 184px;
+     top: 40px;
+     
+     border-radius: 0 0 25px 25px;
+     -webkit-border-radius: 0 0 25px 25px;
+     -moz-border-radius: 0 0 25px 25px;
+ }
+ 
+ .left_armr, .right_armr, .left_legr, .right_legr {
+    background-color: red;
+     width: 50px; position: absolute;
+     -webkit-transition: all 0.1s ease-in;
+ }
+ 
+ .left_armr, .right_armr {
+    background-color: red;
+     height: 150px;
+     border-radius: 25px;
+     -moz-border-radius: 25px;
+     -webkit-border-radius: 25px;
+ }
+ 
+ .left_legr, .right_legr {
+    background-color: red;
+     height: 80px; top: 182px;
+     border-radius: 0 0 25px 25px;
+     -moz-border-radius: 0 0 25px 25px;
+     -webkit-border-radius: 0 0 25px 25px;
+ }
+ 
+ .left_armr {left: -58px;}
+ .right_armr {right: -58px;}
+ .left_legr {left: 45px;}
+ .right_legr {right: 45px;}
+ 
+ .headr:hover {
+    background-color: red;
+     -webkit-transform: rotate(-5deg) translate(-4px, -8px);
+     -transform: rotate(-5deg) translate(-4px, -8px);
+     -moz-transform: rotate(-5deg) translate(-4px, -8px);
+ }
+ 
+ .left_armr:hover{
+    background-color: red;
+     -webkit-transform: rotate(15deg) translate(-14px, 0);
+     -transform: rotate(15deg) translate(-14px, 0);
+     -moz-transform: rotate(15deg) translate(-14px, 0);
+ }
+ 
+ .right_armr:hover{
+    background-color: red;
+     -webkit-transform: rotate(-30deg) translate(30px, 0);
+     -transform: rotate(-30deg) translate(30px, 0);
+     -moz-transform: rotate(-30deg) translate(30px, 0);
+ }
+
+ div {margin: o; padding: 0;}
+ div div {background: ; position: relative;}
+ 
+ .android2{
+    height: 404px; width: 334px;
+    margin: 100px auto;
+    
+ }
+ 
+ .head{
+    background-color: black;
+    width: 220px; height: 100px;
+    top: 32px;
+    border-radius: 110px 110px 0 0;
+    -moz-border-radius: 110px 110px 0 0;
+    -webkit-border-radius: 110px 110px 0 0;
+    
+    -webkit-transition: all 0.1s ease-in;
+}
+
+.left_eye, .right_eye {
+    
+    background: blueviolet;
+    width: 20px; height: 20px;
+    position: absolute; top: 42px;
+    
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.left_eye {left: 50px;}
+.right_eye {right: 50px;}
+
+.left_ant, .right_ant{
+    background-color: black;
+    width: 6px; height: 50px;
+    position: absolute; top: -34px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.left_ant {
+    background-color: black;
+    left: 50px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+}
+
+.right_ant {
+    background-color: black;
+    right: 50px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+.body{
+    background-color: black;
+    width: 220px; height: 184px;
+    top: 40px;
+    
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+}
+
+.left_arm, .right_arm, .left_leg, .right_leg {
+    background-color: black;
+    width: 50px; position: absolute;
+    -webkit-transition: all 0.1s ease-in;
+}
+
+.left_arm, .right_arm {
+    background-color: black;
+    height: 150px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.left_leg, .right_leg {
+    background-color: black;
+    height: 80px; top: 182px;
+    border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_arm {left: -58px;}
+.right_arm {right: -58px;}
+.left_leg {left: 45px;}
+.right_leg {right: 45px;}
+
+.head:hover {
+    background-color: black;
+    -webkit-transform: rotate(-5deg) translate(-4px, -8px);
+    -transform: rotate(-5deg) translate(-4px, -8px);
+    -moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_arm:hover{
+    background-color: black;
+    -webkit-transform: rotate(15deg) translate(-14px, 0);
+    -transform: rotate(15deg) translate(-14px, 0);
+    -moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_arm:hover{
+    background-color: black;
+    -webkit-transform: rotate(-30deg) translate(30px, 0);
+    -transform: rotate(-30deg) translate(30px, 0);
+    -moz-transform: rotate(-30deg) translate(30px, 0);
+}
